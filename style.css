@@ -18,7 +18,7 @@ nav{
     top: 0px;
 }
 .nav-main{
-    border: 1 px solid green;
+    /* border: 1px solid green; */
     width: 800px;
     display: flex;
 }
@@ -34,7 +34,7 @@ nav{
     /* border: 1px solid black; */
     border-radius: 8px;
     display: flex;
-    width: 268px;
+    width: 33%;
     height: 36px;
     margin-top: 13px;
     background-color: rgb(239,239,239);
@@ -51,8 +51,10 @@ nav{
     background-color: rgb(239,239,239);
 }
 .content{
+    /* border: 1px solid black; */
     display: flex;
-    /* justify-content: flex-end; */
+    width: 50%;
+    justify-content: flex-end;
 }
 .content img{
     padding-right: 10px;
@@ -67,9 +69,7 @@ nav{
     top: 15px;
     height: 30px;
 }
-.add-post-img{
 
-}
 .compass-img{
     position: relative;
     top: 15px;
